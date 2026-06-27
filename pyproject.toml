@@ -1,0 +1,13 @@
+[project]
+name = "knn-iris-classifier"
+version = "1.0.0"
+description = "A reproducible K-Nearest Neighbors classification example"
+requires-python = ">=3.10"
+dependencies = [
+    "joblib>=1.4,<2",
+    "scikit-learn>=1.5,<2",
+]
+
+[tool.uv]
+package = false
+
